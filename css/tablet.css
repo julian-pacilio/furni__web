@@ -1,0 +1,9 @@
+.chair__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chair__list__item {
+    max-width: 250px;
+}
