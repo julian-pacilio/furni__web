@@ -1,0 +1,34 @@
+.links__menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    padding: 30px;
+    gap: 20px
+}
+
+nav .logo {
+    width: 40%;
+}
+
+nav .icon__menu {
+    display: none;
+}
+
+#section_2 {
+    display: flex;
+    align-items: center;
+}
+
+#section_2 div {
+    width: 50%;
+}
+
+#section_2 > picture {
+    width: 50%;
+}
+
+.info__pills__list {
+    flex-wrap: wrap;
+}

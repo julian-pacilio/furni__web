@@ -7,3 +7,28 @@
 .chair__list__item {
     max-width: 250px;
 }
+
+.news__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.news {
+    width: 250px;
+}
+
+.info__pills__list {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.banner__buttons {
+    flex-direction: row;
+}
+
+.nav__menu {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
