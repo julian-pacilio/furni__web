@@ -32,3 +32,18 @@
     justify-content: center;
     gap: 20px;
 }
+
+/* - - - - Media Querys - - - - */
+
+@media screen and (min-width: 650px) {
+    section  {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    section  {
+        max-width: 750px;
+    }
+}

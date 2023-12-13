@@ -181,15 +181,15 @@ nav {
 
 /* - - - - Section 1 - - - - */ 
 
-#section_1 p, #section_2 p {
-    margin: 20px 0;
+.section_1 p {
+    margin: 40px 0;
 }
 
 .chair__list {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
 }
 
 .chair__list__item {
@@ -197,24 +197,28 @@ nav {
     max-width: 400px;
 }
 
-#section_1 picture img {
+.section_1 .chair__list__item > p {
+    margin: 20px 0;
+}
+
+.section_1 picture img {
     border-radius: 8px;
 }
 
-#section_1 h3, #section_2 h3 {
+.section_1 h3, .section_2 h3 {
     margin: 20px 0;
     text-transform: uppercase;
 }
 
-#section_1 span {
+.section_1 span {
     display: block;
     font-weight: bold;
 }
 
 /* - - - - Section 2 - - - - */
 
-#section_2 p {
-    margin: 20px 0;
+.section_2 p {
+    margin: 40px 0;
 }
 
 .info__pills__list {
@@ -239,38 +243,42 @@ nav {
     filter: drop-shadow(8px 5px 6px #000000);
 }
 
-#section_2 h3 {
+.section_2 .info__pills__item p {
+    margin: 20px 0;
+}
+
+.section_2 h3 {
     margin: 20px 0;
     text-transform: uppercase;
 }
 
-#section_2 picture {
+.section_2 picture {
     max-width: 400px;
     margin: 0 auto;
 }
 
 /* - - - - Section 3 - - - - */
 
-#section_3 h2 {
-    margin: 20px 0;
+.section_3 h2 {
+    margin-bottom: 40px;
 }
 
 .news__list {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 }
 
-#section_3 .news {
+.section_3 .news {
     max-width: 400px;
 }
 
-#section_3 .news img{
+.section_3 .news img{
     border-radius: 8px;
 }
 
-#section_3 h3 {
+.section_3 h3 {
     margin: 20px 0 10px 0;
 }
 
@@ -278,7 +286,7 @@ nav {
 /* - - - - Section 4 - - - - */
 
 form {
-    margin: 20px auto;
+    margin: 40px auto;
     max-width: 425px;
 }
 
@@ -321,6 +329,10 @@ footer {
     text-align: center;
 }
 
+footer h2{
+    text-transform: uppercase;
+}
+
 footer p {
     margin: 20px 0;
 }
@@ -328,12 +340,12 @@ footer p {
 
 .social__menu {
     display: flex;
-    gap: 20px;
-    justify-content: space-evenly;
+    gap: 50px;
+    justify-content: center;
 }
 
 .social__link a i {
-    font-size: 1.50em;
+    font-size: 2em;
     color: goldenrod;
 }
 
@@ -353,4 +365,31 @@ footer p {
 .sign {
     margin: 0;
     margin-top: 40px;
+}
+
+/* - - - - Media Querys - - - - */
+
+@media screen and (min-width: 500px) {
+    .center  {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.7em;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .banner {
+        align-items: center;
+    }
+
+    .banner > * {
+        max-width: 600px;
+    }
+}
+
+h1 {
+    word-break: break-all;
 }

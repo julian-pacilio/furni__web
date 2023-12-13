@@ -16,19 +16,31 @@ nav .icon__menu {
     display: none;
 }
 
-#section_2 {
+.section_2 {
     display: flex;
     align-items: center;
 }
 
-#section_2 div {
+.section_2 div {
     width: 50%;
 }
 
-#section_2 > picture {
+.section_2 > picture {
     width: 50%;
+    align-self: end;
+    margin-bottom: 50px;
 }
 
 .info__pills__list {
     flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1180px) {
+    .section_1, .section_3 {
+        max-width: 1200px;
+    }
+}
+
+.section_2, .section_4 {
+    max-width: 1200px;
 }
