@@ -16,6 +16,45 @@ nav .icon__menu {
     display: none;
 }
 
+.hero {
+    height: 80vh;
+    align-items: center;
+}
+
+.banner > * {
+    max-width: 100%;
+}
+
+.banner {
+    flex-direction: row;
+    text-align: left;
+    align-content: flex-start;
+    width: 100%;
+    padding: 30px;
+    gap: 20px;
+}
+
+.banner > :first-child {
+    width: 40%;
+    align-self: flex-start;
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.banner > :nth-child(2) {
+    width: 60%;
+    height: 100%;
+    margin: 0;
+}
+
+.banner__buttons {
+    width: 37%;
+    bottom: 26vh;
+}
+
 .section_2 {
     display: flex;
     align-items: center;
@@ -35,12 +74,12 @@ nav .icon__menu {
     flex-wrap: wrap;
 }
 
+.section_2, .section_4, .banner {
+    max-width: 1200px;
+}
+
 @media screen and (min-width: 1180px) {
     .section_1, .section_3 {
         max-width: 1200px;
     }
-}
-
-.section_2, .section_4 {
-    max-width: 1200px;
 }
